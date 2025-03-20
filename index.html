@@ -50,9 +50,13 @@
             outline: none;
         }
         
+        .pdf-links {
+            margin-top: 25px;
+        }
+        
         .pdf-link {
             display: inline-block;
-            margin-top: 25px;
+            margin: 10px 10px 10px 0;
             background-color: #3498db;
             color: white;
             padding: 10px 20px;
@@ -64,6 +68,14 @@
         
         .pdf-link:hover {
             background-color: #2980b9;
+        }
+        
+        .pdf-link.contacts {
+            background-color: #27ae60;
+        }
+        
+        .pdf-link.contacts:hover {
+            background-color: #219653;
         }
         
         .icon {
@@ -92,11 +104,19 @@
             </audio>
         </div>
         
-        <p>For detailed statistics, charts, and comprehensive analysis, please refer to the full written report available in PDF format:</p>
+        <p>For detailed information and further resources, please refer to these documents:</p>
         
-        <a href="report.pdf" class="pdf-link" target="_blank">
-            <span class="icon">📄</span>Download Complete PDF Report
-        </a>
+        <div class="pdf-links">
+            <a href="report.pdf" class="pdf-link" target="_blank">
+                <span class="icon">📄</span>Download Complete PDF Report
+            </a>
+            
+            <a href="contacts.pdf" class="pdf-link contacts" target="_blank">
+                <span class="icon">📋</span>Chinese Gourmet Food Importers Contact List
+            </a>
+        </div>
+        
+        <p>The contacts list includes European branches and partners of Chinese gourmet food importers and distributors, which may be valuable for establishing business relationships and distribution channels.</p>
         
         <footer>
             <p>This report was prepared specifically for Eleonora regarding olive oil export opportunities to the Chinese market.</p>
@@ -114,4 +134,4 @@
         });
     </script>
 </body>
-</html>
+</html>	
